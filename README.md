@@ -1,3 +1,3 @@
 # sxmo_config
 
-![Screenshot](https://github.com/L0Wigh/sxmo_config/blob/screenshot.png?raw=true)
+![Screenshot](https://raw.githubusercontent.com/l0wigh/sxmo_config/master/screenshot.png)

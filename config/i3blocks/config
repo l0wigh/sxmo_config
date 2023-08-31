@@ -1,0 +1,25 @@
+# [click]
+# full_text=
+# command=eww open quicksettings
+# color=#F79494
+# label=
+
+full_text= 
+
+[wifi]
+command=cat $XDG_RUNTIME_DIR/sxmobar | cut -d "=" -f 2 | sed '24q;d'
+interval=1
+
+[batpourcent]
+#command=cat $XDG_RUNTIME_DIR/sxmobar | cut -d "=" -f 2 | sed '38q;d'
+command=~/.config/i3blocks/get_bat.sh
+interval=1
+
+[lockstate]
+command=cat $XDG_RUNTIME_DIR/sxmobar | cut -d "=" -f 2 | sed '52q;d'
+interval=1
+
+# Update time every 5 seconds
+[time]
+command=date +%T | cut -d ":" -f 1,2
+interval=5

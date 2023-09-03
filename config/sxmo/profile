@@ -72,6 +72,6 @@ export SXMO_DEFAULT_DRAFT="Enter new message here."
 
 #Set background image
 #export SXMO_BG_IMG="$(xdg_data_path sxmo/background.jpg)"
-export SXMO_BG_IMG="/home/thomas/config/sxmo/wall.png"
+export SXMO_BG_IMG="~/.config/sxmo/wall.png"
 
 #export KEYBOARD="/usr/bin/wvkbd-french"
